@@ -13,13 +13,13 @@ public class App
     {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the principal: ");
+        System.out.print("Enter the principal: ");
         float principal = sc.nextFloat();
 
-        System.out.println("Enter the rate of interest: ");
+        System.out.print("Enter the rate of interest: ");
         float rate = sc.nextFloat();
 
-        System.out.println("Enter the number of years: ");
+        System.out.print("Enter the number of years: ");
         int years = sc.nextInt();
 
         //calculate
